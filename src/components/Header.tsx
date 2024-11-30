@@ -1,17 +1,15 @@
-import React from 'react';
-import DarkModeToggle from './DarkModeToggle'
+import { Link } from 'react-router-dom';
+import DarkModeToggle from './DarkModeToggle';
 
 const Header: React.FC = () => {
   return (
-    <header className="py-8 px-4 bg-white dark:bg-gray-900 shadow-sm transition-colors">
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-bold dark:text-white">Salman Fatahillah</h1>
-        <div className="flex items-center gap-8">
-          <nav className="flex gap-8">
-            <a href="#about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">About</a>
-            <a href="#experience" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">Experience</a>
-            <a href="#hackathons" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">Hackathons</a>
-            <a href="#skills" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">Skills</a>
+    <header className="py-4 sm:py-8 px-4 bg-white dark:bg-gray-900 shadow-sm transition-colors">
+      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-8">
+        <h1 className="text-2xl sm:text-3xl font-bold dark:text-white">Salman Fatahillah</h1>
+        <div className="flex items-center gap-6 sm:gap-8">
+          <nav className="flex gap-6 sm:gap-8">
+            <Link to="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">Home</Link>
+            <Link to="/blog" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">Blog</Link>
           </nav>
           <DarkModeToggle />
         </div>
