@@ -1,17 +1,17 @@
 const Experience: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+      <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
         Work Experience
       </h2>
       <div className="space-y-12">
-        <div className="relative pl-8 border-l-2 border-blue-600 dark:border-blue-400">
-          <div className="absolute w-4 h-4 bg-blue-600 dark:bg-blue-400 rounded-full -left-[9px] top-0" />
+        <div className="relative pl-8 border-l-2 border-orange-600 dark:border-orange-400">
+          <div className="absolute w-4 h-4 bg-orange-600 dark:bg-orange-400 rounded-full -left-[9px] top-0" />
           <div className="space-y-4">
             <div className="flex flex-col sm:flex-row justify-between items-start gap-2">
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Fullstack Developer</h3>
-                <p className="text-blue-600 dark:text-blue-400">CICON.App</p>
+                <p className="text-orange-600 dark:text-orange-400">CICON.App</p>
               </div>
               <p className="text-sm text-gray-600 dark:text-gray-400">London, UK | May 2024 – Present</p>
             </div>
@@ -24,13 +24,13 @@ const Experience: React.FC = () => {
           </div>
         </div>
 
-        <div className="relative pl-8 border-l-2 border-blue-600 dark:border-blue-400">
-          <div className="absolute w-4 h-4 bg-blue-600 dark:bg-blue-400 rounded-full -left-[9px] top-0" />
+        <div className="relative pl-8 border-l-2 border-orange-600 dark:border-orange-400">
+          <div className="absolute w-4 h-4 bg-orange-600 dark:bg-orange-400 rounded-full -left-[9px] top-0" />
           <div className="space-y-4">
             <div className="flex flex-col sm:flex-row justify-between items-start gap-2">
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Data Analyst Assistant</h3>
-                <p className="text-blue-600 dark:text-blue-400">Times Higher Education</p>
+                <p className="text-orange-600 dark:text-orange-400">Times Higher Education</p>
               </div>
               <p className="text-sm text-gray-600 dark:text-gray-400">London, UK | Nov 2023 – Feb 2024</p>
             </div>
