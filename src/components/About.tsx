@@ -8,16 +8,12 @@ const About: React.FC = () => {
       </h2>
       <div className="space-y-6">
         <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-          I'm a full-stack developer who enjoys solving problems with practical
-          and well-thought-out solutions. At CICON, I developed an AI-driven
-          platform for managing shoe repairs, integrating tools like Next.js,
-          FastAPI, Stripe, and Twilio to create a seamless and secure user
-          experience. My work often focuses on building scalable backends,
-          intuitive frontends, and systems that are easy to maintain. I also
-          enjoy working on projects that have a real-world impact, like Skylark
-          SMS, a health solution designed for underserved communities. I'm
-          always keen to learn, improve, and work on meaningful projects with
-          others.
+          I'm a full-stack developer who loves building web apps that are both
+          intuitive and scalable. I’ve worked with tools like Next.js, React,
+          and FastAPI to create everything from secure payment systems to
+          AI-powered features. I'm all about finding practical solutions to
+          tricky problems and turning ideas into products that people enjoy
+          using.
         </p>
       </div>
     </div>
