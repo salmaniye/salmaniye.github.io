@@ -4,7 +4,7 @@ import { blogPosts } from '../data/blogPosts';
 const Blog: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
+      <h2 className="text-3xl font-bold mb-12 bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
         Blog Posts
       </h2>
       <div className="space-y-6">

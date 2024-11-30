@@ -1,13 +1,13 @@
 const Hero: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-16 sm:py-24">
-      <div className="flex flex-col sm:flex-row items-center gap-8 sm:gap-12">
+      <div className="flex flex-col items-center text-center">
         <img 
           src="/me.jpg" 
           alt="Salman Fatahillah"
-          className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover shadow-lg"
+          className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover shadow-lg mb-8"
         />
-        <div className="text-center sm:text-left">
+        <div>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
             Salman Fatahillah
           </h1>

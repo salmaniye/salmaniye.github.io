@@ -10,7 +10,7 @@ const BlogPost: React.FC = () => {
   if (!post) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto py-16 sm:py-24 text-center">
           <h2 className="text-2xl font-bold mb-4 dark:text-white">Post not found</h2>
           <Link to="/blog" className="text-orange-600 hover:text-orange-800 dark:text-orange-400">
             ← Back to blog
@@ -22,7 +22,7 @@ const BlogPost: React.FC = () => {
 
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <article className="max-w-4xl mx-auto">
+      <article className="max-w-4xl mx-auto py-16 sm:py-24">
         <Link to="/blog" className="text-orange-600 hover:text-orange-800 dark:text-orange-400 mb-8 block">
           ← Back to blog
         </Link>
