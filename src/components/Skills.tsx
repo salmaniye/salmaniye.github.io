@@ -1,76 +1,84 @@
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="py-16 px-4 bg-gray-50 dark:bg-gray-800 transition-colors">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8 dark:text-white">Technical Skills</h2>
-        
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-xl font-semibold mb-4 dark:text-white">Frontend Development</h3>
-              <div className="space-y-2">
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">Languages:</span> JavaScript (ES6+), TypeScript, HTML5, CSS3
-                </p>
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">Frameworks:</span> React, Next.js
-                </p>
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">Styling:</span> Tailwind CSS, DaisyUI
-                </p>
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">State Management:</span> React Context API, Redux
-                </p>
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        Technical Skills
+      </h2>
+      
+      <div className="grid md:grid-cols-2 gap-8">
+        <div className="space-y-8">
+          <div className="p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
+            <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Frontend Development</h3>
+            <div className="space-y-3">
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Languages:</span>
+                <span className="text-gray-700 dark:text-gray-300">JavaScript (ES6+), TypeScript, HTML5, CSS3</span>
               </div>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-semibold mb-4 dark:text-white">Backend Development</h3>
-              <div className="space-y-2">
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">Languages:</span> Python, Node.js, JavaScript
-                </p>
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">Frameworks:</span> FastAPI, Express.js
-                </p>
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">Databases:</span> PostgreSQL, Prisma ORM, SQLAlchemy
-                </p>
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Frameworks:</span>
+                <span className="text-gray-700 dark:text-gray-300">React, Next.js</span>
+              </div>
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Styling:</span>
+                <span className="text-gray-700 dark:text-gray-300">Tailwind CSS, DaisyUI</span>
               </div>
             </div>
           </div>
 
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-xl font-semibold mb-4 dark:text-white">DevOps & Tools</h3>
-              <div className="space-y-2">
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">Deployment:</span> Vercel, AWS (S3, EC2), Docker
-                </p>
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">CI/CD:</span> GitHub Actions
-                </p>
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">Monitoring:</span> Sentry.io
-                </p>
+          <div className="p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
+            <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Backend Development</h3>
+            <div className="space-y-3">
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Languages:</span>
+                <span className="text-gray-700 dark:text-gray-300">Python, Node.js</span>
+              </div>
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Frameworks:</span>
+                <span className="text-gray-700 dark:text-gray-300">FastAPI, Express.js</span>
+              </div>
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Databases:</span>
+                <span className="text-gray-700 dark:text-gray-300">PostgreSQL, Prisma ORM</span>
               </div>
             </div>
+          </div>
+        </div>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-4 dark:text-white">Project Management</h3>
-              <div className="space-y-2">
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">Methodologies:</span> Agile, Scrum
-                </p>
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-medium dark:text-gray-200">Tools:</span> Jira, Trello, Discord/Slack
-                </p>
+        <div className="space-y-8">
+          <div className="p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
+            <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">DevOps & Tools</h3>
+            <div className="space-y-3">
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Deployment:</span>
+                <span className="text-gray-700 dark:text-gray-300">Vercel, AWS, Docker</span>
+              </div>
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">CI/CD:</span>
+                <span className="text-gray-700 dark:text-gray-300">GitHub Actions</span>
+              </div>
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Monitoring:</span>
+                <span className="text-gray-700 dark:text-gray-300">Sentry.io</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
+            <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Project Management</h3>
+            <div className="space-y-3">
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Methodologies:</span>
+                <span className="text-gray-700 dark:text-gray-300">Agile, Scrum</span>
+              </div>
+              <div className="flex gap-2">
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Tools:</span>
+                <span className="text-gray-700 dark:text-gray-300">Jira, Trello, Discord</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
