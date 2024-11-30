@@ -13,6 +13,12 @@ const Header: React.FC = () => {
             Home
           </Link>
           <Link
+            to="/projects"
+            className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors"
+          >
+            Projects
+          </Link>
+          <Link
             to="/blog"
             className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors"
           >

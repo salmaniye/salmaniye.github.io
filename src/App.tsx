@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import BlogPage from './pages/BlogPage'
 import BlogPost from './pages/BlogPost'
 import Footer from './components/Footer'
+import Projects from './pages/Projects'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
