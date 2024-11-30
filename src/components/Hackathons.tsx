@@ -12,7 +12,7 @@ const Hackathons: React.FC = () => {
                 UST D3CODE Hackathon 2024
               </h3>
               <a 
-                href="https://www.hackerearth.com/challenges/hackathon/ust-d3code-hackathon24-uk/"
+                href="https://www.ust.com/en/who-we-are/ust-newsroom/ust-announces-the-global-winners-of-d3code-hackathon-2024"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange-600 hover:text-orange-800 dark:text-orange-400 text-sm inline-flex items-center gap-1"
