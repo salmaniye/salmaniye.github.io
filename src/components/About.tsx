@@ -2,7 +2,7 @@ import React from "react";
 
 const About: React.FC = () => {
   return (
-    <div className="max-w-3xl mx-auto text-center">
+    <div className="max-w-4xl mx-auto">
       <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
         About Me
       </h2>
