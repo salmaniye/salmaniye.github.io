@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
                   href="https://cicon.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                  className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
                 >
                   CICON
                 </a>
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
                 href="https://github.com/salmaniye/EmojiPicker.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
               >
                 EmojiPicker.app
               </a>
@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
                 href="https://github.com/salmaniye"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
               >
                 GitHub
               </a>
@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
                 href="/resume/CV_Salman_Fatahillah.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
               >
                 resume
               </a>
@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
                   href="https://linkedin.com/in/salmanfatahillah"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                  className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
                 >
                   LinkedIn
                 </a>
@@ -127,7 +127,7 @@ const Hero: React.FC = () => {
                   href="https://github.com/salmaniye"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                  className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
                 >
                   GitHub
                 </a>
@@ -138,7 +138,7 @@ const Hero: React.FC = () => {
               free to send me an{" "}
               <a
                 href="mailto:fatahillah.salman@outlook.com"
-                className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
               >
                 email
               </a>
