@@ -36,9 +36,10 @@ const Hero: React.FC = () => {
                 >
                   CICON
                 </a>
-                , building an e-commerce platform that connects customers to
-                local cobblers for shoe repair services, with AI to streamline
-                damage assessment and the booking process.
+                , building a UK-based e-commerce platform that connects customers to
+                local cobblers for shoe repair services. The platform uses AI to assess
+                shoe damage from photos, making it easier for customers to get
+                quick quotes and streamlining the repair process.
               </p>
             </div>
           </div>
