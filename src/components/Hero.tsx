@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
             <img
               src="/me_drawn.png"
               alt="Hand-drawn portrait of Salman Fatahillah"
-              className="w-16 h-16 object-contain sm:hidden"  
+              className="w-16 h-16 object-contain sm:hidden"
             />
           </div>
           <div className="relative">
@@ -23,10 +23,8 @@ const Hero: React.FC = () => {
             />
             <div className="space-y-4 text-md text-gray-700 leading-relaxed">
               <p>
-                I'm a full-stack developer who loves building fun and
-                challenging projects, from web apps to mobile development. I
-                enjoy pushing myself to learn new technologies like Swift and
-                Deno frameworks.
+                I'm a full-stack developer who loves building fun and challenging projects, from web applications to anything interesting!
+                I enjoy pushing myself to learn new technologies - right now I'm learning Swift and Deno.
               </p>
               <p>
                 Currently working at{" "}
@@ -54,7 +52,16 @@ const Hero: React.FC = () => {
             <p>
               I enjoy working with React, Next.js, and Python, and I do most of
               my coding in VSCode. Lately, I've been learning Swift to build my
-              own macOS apps.
+              own macOS apps - like{" "}
+              <a
+                href="https://github.com/salmaniye/EmojiPicker.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+              >
+                EmojiPicker.app
+              </a>
+              , a menu bar app for quick emoji insertion.
             </p>
             <p>
               On the side, I run a Linux home server where I self-host things

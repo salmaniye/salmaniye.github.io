@@ -10,6 +10,14 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "EmojiPicker.app",
+    description: "A macOS menu bar app for quick emoji insertion (In Progress)",
+    image: "",
+    link: "https://github.com/salmaniye/EmojiPicker.app",
+    summary: "Swift app that lets you quickly insert emojis anywhere by typing shortcuts like :heart or :fire. Built for macOS with accessibility integration."
+  },
+  {
+    id: 2,
     title: "A Web Application to Display Sentiments of Pre-release Tweets on Main Series Pokemon Games",
     description: "My final project for my MSc",
     image: "/projects/pokemon-msc-project.png",
@@ -17,14 +25,14 @@ export const projects: Project[] = [
     summary: "Built a web application that analyzes and displays sentiment from Twitter data about Pokemon games"
   },
   {
-    id: 2,
+    id: 3,
     title: "Analysing Negative Sentiment in Tweets: Insights into Pokemon Sword and Shield Concerns",
     description: "Using my web application on Pokemon tweets, I conducted an analysis of what audiences were concerned about before release",
     image: "/projects/audiences_concern.jpg",
     link: "https://drive.google.com/file/d/1j3_ugxIjaYIc3MosOfbLaE2ujIWkMnUM/view?usp=sharing"
   },
   {
-    id: 3,
+    id: 4,
     title: "Flashcard Maker Web App",
     description: "Used Streamlit to create a Flashcard Maker",
     image: "/projects/flashcards.png",
