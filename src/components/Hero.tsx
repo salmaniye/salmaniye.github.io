@@ -1,26 +1,147 @@
-import ContactDetails from './ContactDetails';
+import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16 sm:py-24">
-      <div className="flex flex-col items-center text-center">
-        <img 
-          src="/me.jpg" 
-          alt="Salman Fatahillah"
-          className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover shadow-lg mb-8"
-        />
+    <div className="max-w-3xl mx-auto px-4 py-12">
+      <div className="space-y-12">
         <div>
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
-            Salman Fatahillah
-          </h1>
-          <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-            Fullstack Developer based in London, UK
-          </p>
-          <ContactDetails />
+          <div className="flex items-center justify-between mb-6 sm:block">
+            <h1 className="text-xl sm:text-2xl font-hand text-gray-900">
+              Hi, I'm Salman Fatahillah
+            </h1>
+            <img
+              src="/me_drawn.png"
+              alt="Hand-drawn portrait of Salman Fatahillah"
+              className="w-16 h-16 object-contain sm:hidden"  
+            />
+          </div>
+          <div className="relative">
+            <img
+              src="/me_drawn.png"
+              alt="Hand-drawn portrait of Salman Fatahillah"
+              className="hidden sm:block sm:float-right sm:ml-6 sm:mb-4 sm:w-36 sm:h-36 object-contain"
+            />
+            <div className="space-y-4 text-md text-gray-700 leading-relaxed">
+              <p>
+                I'm a full-stack developer who loves building fun and
+                challenging projects, from web apps to mobile development. I
+                enjoy pushing myself to learn new technologies like Swift and
+                Deno frameworks.
+              </p>
+              <p>
+                Currently working at{" "}
+                <a
+                  href="https://cicon.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                >
+                  CICON
+                </a>
+                , building an e-commerce platform that connects customers to
+                local cobblers for shoe repair services, with AI to streamline
+                damage assessment and the booking process.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-orange-100 pt-8">
+          <h2 className="text-lg font-medium text-gray-900 mb-6">
+            Technologies
+          </h2>
+          <div className="space-y-4 text-md text-gray-700 leading-relaxed">
+            <p>
+              I enjoy working with React, Next.js, and Python, and I do most of
+              my coding in VSCode. Lately, I've been learning Swift to build my
+              own macOS apps.
+            </p>
+            <p>
+              On the side, I run a Linux home server where I self-host things
+              like media streaming, file syncing, and some automation, mainly
+              just for fun and to see what's possible. I also mess around with
+              networking, remote access, and sometimes use the server for quick
+              scripting or as a testbed for random ideas.
+            </p>
+            <p>
+              Check out my public projects on{" "}
+              <a
+                href="https://github.com/salmaniye"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+              >
+                GitHub
+              </a>
+              .
+            </p>
+            <p>
+              To learn more about my professional experience, you can see my{" "}
+              <a
+                href="/resume/CV_Salman_Fatahillah.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+              >
+                resume
+              </a>
+              .
+            </p>
+            {/* <p>
+              I also write about technology, development, and data analysis on my{' '}
+              <a 
+                href="/blog" 
+                className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+              >
+                blog
+              </a>.
+            </p> */}
+          </div>
+        </div>
+
+        <div className="border-t border-orange-100 pt-8">
+          <h2 className="text-lg font-medium text-gray-900 mb-6">Connect</h2>
+          <div className="space-y-4 text-md text-gray-700 leading-relaxed">
+            <p>You can also find me online here:</p>
+            <ul className="space-y-2 ml-6">
+              <li>
+                <a
+                  href="https://linkedin.com/in/salmanfatahillah"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/salmaniye"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                >
+                  GitHub
+                </a>
+              </li>
+            </ul>
+            <p>
+              If you think I would be a good fit for your organization, feel
+              free to send me an{" "}
+              <a
+                href="mailto:fatahillah.salman@outlook.com"
+                className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+              >
+                email
+              </a>
+              .
+            </p>
+            <p>Let's build something amazing together!</p>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Hero; 
+export default Hero;

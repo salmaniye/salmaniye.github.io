@@ -1,39 +1,25 @@
 const Education: React.FC = () => {
   return (
-    <div className="max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
+    <div className="border-t border-orange-100 dark:border-gray-700 pt-8">
+      <h2 className="text-lg font-medium text-gray-900 dark:text-white mb-6">
         Education
       </h2>
-      <div className="space-y-8">
-        <div className="group p-6 rounded-xl bg-gray-100 dark:bg-gray-800 shadow-sm hover:shadow-md transition-all">
-          <div className="flex flex-col sm:flex-row justify-between items-start gap-4">
-            <div>
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">
-                M.Sc. (Taught) Data Science
-              </h3>
-              <p className="text-orange-600 dark:text-orange-400">University of Birmingham</p>
-            </div>
-            <div className="text-sm text-gray-600 dark:text-gray-400 sm:text-right">
-              <p>Birmingham, UK</p>
-              <p className="font-medium">2021 - 2022</p>
-              <p className="font-medium">Distinction</p>
-            </div>
+      <div className="space-y-6">
+        <div className="space-y-2">
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
+            <h3 className="font-medium text-gray-900 dark:text-white">M.Sc. Data Science</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400">2021 - 2022</p>
           </div>
+          <p className="text-gray-600 dark:text-gray-400">University of Birmingham, UK</p>
+          <p className="text-sm text-gray-600 dark:text-gray-400">Distinction</p>
         </div>
 
-        <div className="group p-6 rounded-xl bg-gray-100 dark:bg-gray-800 shadow-sm hover:shadow-md transition-all">
-          <div className="flex flex-col sm:flex-row justify-between items-start gap-4">
-            <div>
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">
-                B.Sc. Chemical Engineering
-              </h3>
-              <p className="text-orange-600 dark:text-orange-400">Institut Teknologi Bandung (ITB)</p>
-            </div>
-            <div className="text-sm text-gray-600 dark:text-gray-400 sm:text-right">
-              <p>Bandung, Indonesia</p>
-              <p className="font-medium">2016 - 2020</p>
-            </div>
+        <div className="space-y-2">
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
+            <h3 className="font-medium text-gray-900 dark:text-white">B.Sc. Chemical Engineering</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400">2016 - 2020</p>
           </div>
+          <p className="text-gray-600 dark:text-gray-400">Institut Teknologi Bandung (ITB), Indonesia</p>
         </div>
       </div>
     </div>

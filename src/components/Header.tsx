@@ -1,31 +1,29 @@
 import { Link } from "react-router-dom";
-import DarkModeToggle from "./DarkModeToggle";
 
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 z-50 py-4 px-4 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm shadow-sm transition-colors">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <nav className="flex gap-6 sm:gap-8">
+    <header className="py-6 px-4 bg-orange-100 border-b border-orange-100">
+      <div className="max-w-3xl mx-auto flex justify-center items-center">
+        <nav className="flex gap-8">
           <Link
             to="/"
-            className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors"
+            className="text-gray-900 hover:text-gray-600 transition-colors font-medium"
           >
-            Home
+            About
           </Link>
           <Link
             to="/projects"
-            className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors"
+            className="text-gray-900 hover:text-gray-600 transition-colors font-medium"
           >
             Projects
           </Link>
-          <Link
+          {/* <Link
             to="/blog"
-            className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors"
+            className="text-gray-900 hover:text-gray-600 transition-colors font-medium"
           >
-            Blog
-          </Link>
+            Writing
+          </Link> */}
         </nav>
-        <DarkModeToggle />
       </div>
     </header>
   );

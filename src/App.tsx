@@ -9,7 +9,7 @@ import Projects from './pages/Projects'
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors flex flex-col">
+      <div className="min-h-screen bg-orange-100 flex flex-col">
         <Header />
         <main className="flex-grow">
           <Routes>

@@ -9,7 +9,7 @@ const About: React.FC = () => {
       <div className="space-y-6">
         <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
           I'm a full-stack developer who loves building web apps that are both
-          intuitive and scalable. I’ve worked with tools like Next.js, React,
+          intuitive and scalable. I've worked with tools like Next.js, React,
           and FastAPI to create everything from secure payment systems to
           AI-powered features. I'm all about finding practical solutions to
           tricky problems and turning ideas into products that people enjoy
