@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     title: "Interactive Migration Map",
     description: "Interactive map visualizing major historical migration events using Python, Streamlit, and Folium. Built in under 4 hours at Hack Pompey 2024.",
-    image: "",
+    image:  "/projects/maps.png",
     link: "https://github.com/salmaniye/interactive_migration_map",
     year: 2024,
     summary: "My first foray into hackathons! Though the project is basic, it was a great and fun start into the hackathon world. Python web app using Streamlit and Folium to display historical population movements."

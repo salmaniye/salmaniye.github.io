@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
             <img
               src="/me_drawn.png"
               alt="Hand-drawn portrait of Salman Fatahillah"
-              className="w-16 h-16 object-contain sm:hidden"
+              className="w-12 h-12 object-contain sm:hidden"
             />
           </div>
           <div className="relative">
@@ -20,13 +20,11 @@ const HomePage: React.FC = () => {
               <img
                 src="/me_drawn.png"
                 alt="Hand-drawn portrait of Salman Fatahillah"
-                className="hidden sm:block sm:float-right sm:ml-4 sm:mb-4 sm:w-32 sm:h-32 lg:w-36 lg:h-36 object-contain"
+                className="hidden sm:block sm:float-right sm:ml-4 sm:mb-4 sm:w-32 sm:h-32 object-contain"
               />
               <p>
-                I'm a full-stack developer who turns "wouldn't it be cool if..." ideas into 
-                actual working software (well, I try to). Currently exploring Deno 2.0's 
-                backwards compatibility with Node.js and its built-in TypeScript support, 
-                and learning Swift to create the macOS tools I wish existed.
+                I'm a software developer who turns "wouldn't it be cool if..."
+                ideas into actual working software (well, I try to).
               </p>
               <p>
                 Currently working at{" "}
@@ -38,11 +36,20 @@ const HomePage: React.FC = () => {
                 >
                   CICON
                 </a>
-                , building a UK-based e-commerce platform that digitizes shoe
-                repair services. Instead of visiting cobblers in person for
-                quotes, customers can upload photos and receive AI-powered
-                damage assessments and instant pricing, connecting them directly
-                with local cobblers.
+                , where I'm building a UK-based platform that digitizes shoe
+                repair services.
+              </p>
+              <p>
+                We're transforming the traditional shoe repair process -
+                customers upload photos of their damaged shoes and receive
+                instant AI assessments and quotes, then get matched with skilled
+                local cobblers.
+              </p>
+              <p>
+                I'm always exploring new tools that could improve how we build
+                software - currently diving into Deno 2's backwards
+                compatibility with Node.js and learning Swift to create the
+                macOS utilities I wish existed.
               </p>
             </div>
           </div>
@@ -54,9 +61,9 @@ const HomePage: React.FC = () => {
           </h2>
           <div className="space-y-4 text-md text-gray-700 leading-relaxed">
             <p>
-              I build production applications with React, Next.js, and Python. 
-              I'm currently expanding into Swift development for macOS - starting 
-              with small projects like{" "}
+              I build production applications with React, Next.js, and Python.
+              I'm currently expanding into Swift development for macOS -
+              starting with small projects like{" "}
               <a
                 href="https://github.com/salmaniye/EmojiPicker.app"
                 target="_blank"
@@ -64,18 +71,16 @@ const HomePage: React.FC = () => {
                 className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
               >
                 EmojiPicker.app
-              </a>
-              {" "}as I learn the ecosystem.
+              </a>{" "}
+              as I learn the ecosystem.
             </p>
             <p>
               On the side, I run a Linux home server for media streaming,
               automated backups (with Samba for Time Machine), and experimenting
               with self-hosted services. It's a great way to stay curious about
-              infrastructure and learn through hands-on tinkering outside of
-              work.
+              infrastructure and learn through hands-on tinkering.
             </p>
             <p>
-              <strong>
                 <a
                   href="/resume/CV_Salman_Fatahillah.pdf"
                   target="_blank"
@@ -83,9 +88,9 @@ const HomePage: React.FC = () => {
                   className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
                 >
                   View my resume
-                </a>
-              </strong>
-              {" "}for my professional and educational background, or check out my projects on{" "}
+                </a>{" "}
+              for my professional and educational background, or check out my
+              projects on{" "}
               <a
                 href="https://github.com/salmaniye"
                 target="_blank"
@@ -111,9 +116,7 @@ const HomePage: React.FC = () => {
         <div className="border-t border-orange-100 pt-8">
           <h2 className="text-lg font-medium text-gray-900 mb-6">Connect</h2>
           <div className="space-y-4 text-md text-gray-700 leading-relaxed">
-            <p>You can also find me online here:</p>
-            <ul className="space-y-2 ml-6">
-              <li>
+            <p>You can also find me on{" "}
                 <a
                   href="https://linkedin.com/in/salmanfatahillah"
                   target="_blank"
@@ -121,14 +124,13 @@ const HomePage: React.FC = () => {
                   className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
                 >
                   LinkedIn
-                </a>
-              </li>
-
-            </ul>
-            <p>
-              I'm particularly interested in opportunities involving AI-powered applications, 
-              modern web development, or early-stage startups. If you're working on something 
-              challenging and think I'd be a good fit, feel free to{" "}
+                </a>.
+              </p>
+              <p>
+              I'm particularly interested in opportunities involving AI-powered
+              applications, modern web development, or early-stage startups. If
+              you're working on something challenging and think I'd be a good
+              fit, feel free to{" "}
               <a
                 href="mailto:fatahillah.salman@outlook.com"
                 className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
