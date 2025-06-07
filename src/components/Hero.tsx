@@ -15,13 +15,8 @@ const Hero: React.FC = () => {
               className="w-16 h-16 object-contain sm:hidden"
             />
           </div>
-          <div className="relative">
-            <img
-              src="/me_drawn.png"
-              alt="Hand-drawn portrait of Salman Fatahillah"
-              className="hidden sm:block sm:float-right sm:ml-6 sm:mb-4 sm:w-36 sm:h-36 object-contain"
-            />
-            <div className="space-y-4 text-md text-gray-700 leading-relaxed">
+          <div className="relative sm:flex sm:items-start sm:gap-2">
+            <div className="space-y-4 text-md text-gray-700 leading-relaxed sm:flex-1">
               <p>
                 I'm a full-stack developer who loves building fun and challenging projects, from web applications to anything interesting!
                 I enjoy pushing myself to learn new technologies - right now I'm learning Swift and Deno.
@@ -42,6 +37,11 @@ const Hero: React.FC = () => {
                 quick quotes and streamlining the repair process.
               </p>
             </div>
+            <img
+              src="/me_drawn.png"
+              alt="Hand-drawn portrait of Salman Fatahillah"
+              className="hidden sm:block sm:w-32 sm:h-32 lg:w-36 lg:h-36 object-contain flex-shrink-0"
+            />
           </div>
         </div>
 
