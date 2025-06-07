@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
               .
             </p>
             <p>
-              To learn more about my professional experience, you can see my{" "}
+              To learn more about my professional and educational experience, you can see my{" "}
               <a
                 href="/resume/CV_Salman_Fatahillah.pdf"
                 target="_blank"
