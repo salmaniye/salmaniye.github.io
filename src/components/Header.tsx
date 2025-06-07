@@ -17,6 +17,14 @@ const Header: React.FC = () => {
           >
             Projects
           </Link>
+          <a
+            href="/resume/CV_Salman_Fatahillah.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-900 hover:text-orange-600 transition-colors font-medium"
+          >
+            Resume
+          </a>
           {/* <Link
             to="/blog"
             className="text-gray-900 hover:text-gray-600 transition-colors font-medium"
