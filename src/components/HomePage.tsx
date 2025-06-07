@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero: React.FC = () => {
+const HomePage: React.FC = () => {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <div className="space-y-12">
@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
               .
             </p>
             <p>
-              To learn more about my professional and educational experience, you can see my{" "}
+              To learn more about my professional & educational experience, you can see my{" "}
               <a
                 href="/resume/CV_Salman_Fatahillah.pdf"
                 target="_blank"
@@ -152,4 +152,4 @@ const Hero: React.FC = () => {
   );
 };
 
-export default Hero;
+export default HomePage;

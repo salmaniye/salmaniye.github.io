@@ -7,13 +7,13 @@ const Header: React.FC = () => {
         <nav className="flex gap-8">
           <Link
             to="/"
-            className="text-gray-900 hover:text-gray-600 transition-colors font-medium"
+            className="text-gray-900 hover:text-orange-600 transition-colors font-medium"
           >
             About
           </Link>
           <Link
             to="/projects"
-            className="text-gray-900 hover:text-gray-600 transition-colors font-medium"
+            className="text-gray-900 hover:text-orange-600 transition-colors font-medium"
           >
             Projects
           </Link>
