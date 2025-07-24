@@ -40,14 +40,29 @@ const HomePage: React.FC = () => {
                 repair services.
               </p>
               <p>
-                We're transforming the traditional shoe repair process -
+                We're transforming the traditional shoe repair process, where
                 customers upload photos of their damaged shoes and receive
-                instant AI assessments and quotes, then get matched with skilled
-                local cobblers.
+                instant assessments and quotes using image recognition, then get
+                matched with skilled local cobblers.
               </p>
               <p>
-                I'm always exploring new tools that could improve how we build
-                software - currently diving into Deno 2's backwards
+                I'm currently organising{" "}
+                <a
+                  href="https://cicon-devs.github.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
+                >
+                  CICON Hack 2025
+                </a>
+                , an online hackathon focused on sustainability, repair-first
+                systems, and creative content that spreads repair culture.
+                The event is still in development and will be opening for
+                registrations soon!
+              </p>
+              <p>
+                Always exploring new tools and frameworks that could improve how
+                we build software, currently diving into Deno 2's backwards
                 compatibility with Node.js and learning Swift to create the
                 macOS utilities I wish existed.
               </p>
@@ -81,14 +96,14 @@ const HomePage: React.FC = () => {
               infrastructure and learn through hands-on tinkering.
             </p>
             <p>
-                <a
-                  href="/resume/CV_Salman_Fatahillah.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
-                >
-                  View my resume
-                </a>{" "}
+              <a
+                href="/resume/CV_Salman_Fatahillah.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
+              >
+                View my resume
+              </a>{" "}
               for my professional and educational background, or check out my
               projects on{" "}
               <a
@@ -116,17 +131,19 @@ const HomePage: React.FC = () => {
         <div className="border-t border-orange-100 pt-8">
           <h2 className="text-lg font-medium text-gray-900 mb-6">Connect</h2>
           <div className="space-y-4 text-md text-gray-700 leading-relaxed">
-            <p>You can also find me on{" "}
-                <a
-                  href="https://linkedin.com/in/salmanfatahillah"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
-                >
-                  LinkedIn
-                </a>.
-              </p>
-              <p>
+            <p>
+              You can also find me on{" "}
+              <a
+                href="https://linkedin.com/in/salmanfatahillah"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
+              >
+                LinkedIn
+              </a>
+              .
+            </p>
+            <p>
               I'm particularly interested in opportunities involving AI-powered
               applications, modern web development, or early-stage startups. If
               you're working on something challenging and think I'd be a good
