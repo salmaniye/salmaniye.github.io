@@ -1,22 +1,25 @@
-import { projects } from '../data/projects';
+import { projects } from "../data/projects";
 
 const renderMarkdown = (text: string) => {
   // Split on multiple markdown patterns
   const parts = text.split(/(\*\*.*?\*\*|\*.*?\*|`.*?`|\[.*?\]\(.*?\))/g);
-  
+
   return parts.map((part, index) => {
     // Bold text **text**
-    if (part.startsWith('**') && part.endsWith('**')) {
+    if (part.startsWith("**") && part.endsWith("**")) {
       return <strong key={index}>{part.slice(2, -2)}</strong>;
     }
     // Italic text *text*
-    if (part.startsWith('*') && part.endsWith('*') && !part.startsWith('**')) {
+    if (part.startsWith("*") && part.endsWith("*") && !part.startsWith("**")) {
       return <em key={index}>{part.slice(1, -1)}</em>;
     }
     // Inline code `code`
-    if (part.startsWith('`') && part.endsWith('`')) {
+    if (part.startsWith("`") && part.endsWith("`")) {
       return (
-        <code key={index} className="px-1 py-0.5 bg-gray-100 text-gray-800 rounded text-sm font-mono">
+        <code
+          key={index}
+          className="px-1 py-0.5 bg-gray-100 text-gray-800 rounded text-sm font-mono"
+        >
           {part.slice(1, -1)}
         </code>
       );
@@ -25,10 +28,10 @@ const renderMarkdown = (text: string) => {
     const linkMatch = part.match(/^\[(.*?)\]\((.*?)\)$/);
     if (linkMatch) {
       return (
-        <a 
-          key={index} 
-          href={linkMatch[2]} 
-          target="_blank" 
+        <a
+          key={index}
+          href={linkMatch[2]}
+          target="_blank"
           rel="noopener noreferrer"
           className="text-orange-600 hover:text-orange-700 underline underline-offset-2"
         >
@@ -46,30 +49,28 @@ const Projects = () => {
     <main className="max-w-3xl mx-auto px-4 py-12">
       <div className="space-y-12">
         <div className="border-t border-orange-100 pt-8">
-          <h1 className="text-2xl font-normal text-gray-900 mb-4">
+          <h1 className="text-2xl font-semibold text-orange-700 mb-4">
             Projects
           </h1>
           <p className="text-gray-700 leading-relaxed mb-8">
-            From analyzing Pokémon tweets for my MSc to winning my first hackathon at LincolnHack 2024 - a weekend that completely changed my career direction. These projects trace my evolution from academic research to building practical web applications, and now expanding into native macOS development with Swift.
+            From analyzing Pokémon tweets for my MSc to winning my first
+            hackathon at LincolnHack 2024, a weekend that completely changed my
+            career direction. These projects trace my evolution from academic
+            research to building practical web applications, and now hosting my
+            own online hackathon with CICON to promote repair culture.
           </p>
-          
+
+          <div className="flex items-center my-12">
+            <div className="flex-grow border-t border-orange-200"></div>
+          </div>
+
           <div className="space-y-16">
             {projects.map((project, index) => (
               <div key={project.title} className="space-y-4">
                 {index > 0 && (
-                  <div className="border-t border-orange-200 pt-12 -mt-4" />
+                  <div className="border-t border-orange-200 pt-12" />
                 )}
-                
-                {project.image && (
-                  <div className="aspect-video relative overflow-hidden rounded-lg bg-orange-100">
-                    <img 
-                      src={project.image} 
-                      alt={project.title}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                )}
-                
+
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
                     <h2 className="font-medium text-gray-900 text-lg">
@@ -79,14 +80,14 @@ const Projects = () => {
                       {project.year}
                     </span>
                   </div>
-                                      <p className="text-gray-700 leading-relaxed">
-                      {renderMarkdown(project.description)}
+                  <p className="text-gray-700 leading-relaxed">
+                    {renderMarkdown(project.description)}
+                  </p>
+                  {project.summary && (
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      {renderMarkdown(project.summary)}
                     </p>
-                    {project.summary && (
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        {renderMarkdown(project.summary)}
-                      </p>
-                    )}
+                  )}
                   <a
                     href={project.link}
                     target="_blank"
@@ -96,6 +97,16 @@ const Projects = () => {
                     View Project
                   </a>
                 </div>
+
+                {project.image && (
+                  <div className="aspect-video relative overflow-hidden rounded-lg bg-orange-100 mt-6">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -105,4 +116,4 @@ const Projects = () => {
   );
 };
 
-export default Projects; 
+export default Projects;
