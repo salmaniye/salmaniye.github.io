@@ -6,7 +6,7 @@ const HomePage: React.FC = () => {
       <div className="space-y-12">
         <div>
           <div className="flex items-center justify-between mb-6 sm:block">
-            <h1 className="text-xl sm:text-2xl font-hand text-orange-700">
+            <h1 className="text-xl sm:text-2xl font-hand font-medium text-orange-700">
               Hi, I'm Salman Fatahillah
             </h1>
             <img
@@ -71,7 +71,7 @@ const HomePage: React.FC = () => {
         </div>
 
         <div className="border-t border-orange-100 pt-8">
-          <h2 className="text-lg font-semibold text-orange-700 mb-6">
+          <h2 className="text-lg font-bold text-orange-700 mb-6">
             Technologies
           </h2>
           <div className="space-y-4 text-md text-gray-700 leading-relaxed">
