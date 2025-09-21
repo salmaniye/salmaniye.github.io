@@ -27,7 +27,7 @@ const HomePage: React.FC = () => {
                 ideas into actual working software (well, I try to).
               </p>
               <p>
-                Currently working at{" "}
+                I'm the technical lead and fullstack developer at{" "}
                 <a
                   href="https://cicon.vercel.app/"
                   target="_blank"
@@ -36,17 +36,38 @@ const HomePage: React.FC = () => {
                 >
                   CICON
                 </a>
-                , where I'm building a UK-based platform that digitizes shoe
-                repair services.
+                , where I'm building a UK platform that connects shoe products
+                to post-sale services.
               </p>
               <p>
-                We're transforming the traditional shoe repair process, where
-                customers upload photos of their damaged shoes and receive
-                instant assessments and quotes using image recognition, then get
-                matched with skilled local cobblers.
+                On the backend I lead our Next.js/PostgreSQL stack that handles
+                orders, payments, notifications, and hooks into Stripe and
+                Twilio. On the frontend I design multi-step customer journeys
+                that take people from photo uploads to checkout on any device.
               </p>
               <p>
-                I'm currently organising{" "}
+                I recently shipped an AWS-hosted API that uses a fine-tuned
+                GPT-4o workflow to spot shoe faults from multi-image uploads and
+                recommend the right repair options. It helps customers get
+                accurate quotes and matches them with cobblers automatically.
+              </p>
+              <p>
+                I'm also cofounding{" "}
+                <a
+                  href="https://loko.health"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
+                >
+                  Loko
+                </a>
+                , a telehealth initiative using the Community Health Toolkit to
+                help community health workers monitor tuberculosis treatment in
+                Indonesia. We're keeping the stack accessible and low-cost so it
+                can run in resource constrained environments.
+              </p>
+              <p>
+                I just wrapped organising{" "}
                 <a
                   href="https://cicon-devs.github.io/"
                   target="_blank"
@@ -55,16 +76,14 @@ const HomePage: React.FC = () => {
                 >
                   CICON Hack 2025
                 </a>
-                , an online hackathon focused on sustainability, repair-first
-                systems, and creative content that spreads repair culture.
-                The event is still in development and will be opening for
-                registrations soon!
+                , an online hackathon centred on sustainability, repair-first
+                systems, and storytelling that spreads repair culture.
               </p>
               <p>
-                Always exploring new tools and frameworks that could improve how
-                we build software, currently diving into Deno 2's backwards
-                compatibility with Node.js and learning Swift to create the
-                macOS utilities I wish existed.
+                Outside of work I'm still exploring new tooling. Right now that
+                means digging into Deno 2's Node compatibility layer and
+                learning Swift so I can build the macOS utilities I want to use
+                every day.
               </p>
             </div>
           </div>
@@ -76,9 +95,12 @@ const HomePage: React.FC = () => {
           </h2>
           <div className="space-y-4 text-md text-gray-700 leading-relaxed">
             <p>
-              I build production applications with React, Next.js, and Python.
-              I'm currently expanding into Swift development for macOS -
-              starting with small projects like{" "}
+              I build production applications with React, Next.js, TypeScript,
+              and Python, and lean on Tailwind, Prisma, and Postgres for the
+              ergonomics they give product teams.
+            </p>
+            <p>
+              I'm expanding into Swift for macOS (building things like{" "}
               <a
                 href="https://github.com/salmaniye/EmojiPicker.app"
                 target="_blank"
@@ -86,14 +108,14 @@ const HomePage: React.FC = () => {
                 className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
               >
                 EmojiPicker.app
-              </a>{" "}
-              as I learn the ecosystem.
+              </a>
+              ) and constantly tinkering with a self-hosted Linux lab for
+              backups, media, and automation experiments.
             </p>
             <p>
-              On the side, I run a Linux home server for media streaming,
-              automated backups (with Samba for Time Machine), and experimenting
-              with self-hosted services. It's a great way to stay curious about
-              infrastructure and learn through hands-on tinkering.
+              Recent highlights include three 24-hour hackathon wins in 2024 for
+              AI health coaching, orchestral data storytelling, and a playful
+              fitness prototype.
             </p>
             <p>
               <a
@@ -102,10 +124,9 @@ const HomePage: React.FC = () => {
                 rel="noopener noreferrer"
                 className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
               >
-                View my resume
+                View my latest resume
               </a>{" "}
-              for my professional and educational background, or check out my
-              projects on{" "}
+              for a deeper look, or drop into my projects on{" "}
               <a
                 href="https://github.com/salmaniye"
                 target="_blank"
@@ -116,15 +137,6 @@ const HomePage: React.FC = () => {
               </a>
               .
             </p>
-            {/* <p>
-              I also write about technology, development, and data analysis on my{' '}
-              <a 
-                href="/blog" 
-                className="underline underline-offset-4 hover:text-gray-500 transition-colors"
-              >
-                blog
-              </a>.
-            </p> */}
           </div>
         </div>
 
