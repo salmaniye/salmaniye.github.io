@@ -41,15 +41,12 @@ const HomePage: React.FC = () => {
               </p>
               <p>
                 On the backend I lead our Next.js/PostgreSQL stack that handles
-                orders, payments, notifications, and hooks into Stripe and
-                Twilio. On the frontend I design multi-step customer journeys
-                that take people from photo uploads to checkout on any device.
-              </p>
-              <p>
-                I recently shipped an AWS-hosted API that uses a fine-tuned
-                GPT-4o workflow to spot shoe faults from multi-image uploads and
-                recommend the right repair options. It helps customers get
-                accurate quotes and matches them with cobblers automatically.
+                orders, payments, notifications, and hooks into Stripe,
+                ShipStation, and Twilio. On the frontend I design multi-step
+                customer journeys that take people from photo uploads to
+                checkout on any device. I'm also responsible for the infrastructure
+                and CI/CD pipeline that ensures the platform is always available
+                and scalable.
               </p>
               <p>
                 I'm also cofounding{" "}
@@ -66,25 +63,6 @@ const HomePage: React.FC = () => {
                 Indonesia. We're keeping the stack accessible and low-cost so it
                 can run in resource constrained environments.
               </p>
-              <p>
-                I just wrapped organising{" "}
-                <a
-                  href="https://cicon-devs.github.io/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
-                >
-                  CICON Hack 2025
-                </a>
-                , an online hackathon centred on sustainability, repair-first
-                systems, and storytelling that spreads repair culture.
-              </p>
-              <p>
-                Outside of work I'm still exploring new tooling. Right now that
-                means digging into Deno 2's Node compatibility layer and
-                learning Swift so I can build the macOS utilities I want to use
-                every day.
-              </p>
             </div>
           </div>
         </div>
@@ -99,7 +77,7 @@ const HomePage: React.FC = () => {
               and Python, and lean on Tailwind, Prisma, and Postgres for the
               ergonomics they give product teams.
             </p>
-            <p>
+            {/* <p>
               I'm expanding into Swift for macOS (building things like{" "}
               <a
                 href="https://github.com/salmaniye/EmojiPicker.app"
@@ -111,11 +89,14 @@ const HomePage: React.FC = () => {
               </a>
               ) and constantly tinkering with a self-hosted Linux lab for
               backups, media, and automation experiments.
-            </p>
+            </p> */}
             <p>
               Recent highlights include three 24-hour hackathon wins in 2024 for
               AI health coaching, orchestral data storytelling, and a playful
-              fitness prototype.
+              fitness prototype. Please see my <a
+              href="/projects"
+              className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
+              >projects</a> page for more details.
             </p>
             <p>
               <a
@@ -141,7 +122,9 @@ const HomePage: React.FC = () => {
         </div>
 
         <div className="border-t border-orange-100 pt-8">
-          <h2 className="text-lg font-semibold text-orange-700 mb-6">Connect</h2>
+          <h2 className="text-lg font-semibold text-orange-700 mb-6">
+            Connect
+          </h2>
           <div className="space-y-4 text-md text-gray-700 leading-relaxed">
             <p>
               You can also find me on{" "}
