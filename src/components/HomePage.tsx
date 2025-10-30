@@ -44,9 +44,9 @@ const HomePage: React.FC = () => {
                 orders, payments, notifications, and hooks into Stripe,
                 ShipStation, and Twilio. On the frontend I design multi-step
                 customer journeys that take people from photo uploads to
-                checkout on any device. I'm also responsible for the infrastructure
-                and CI/CD pipeline that ensures the platform is always available
-                and scalable.
+                checkout on any device. I'm also responsible for the
+                infrastructure and CI/CD pipeline that ensures the platform is
+                always available and scalable.
               </p>
               <p>
                 I'm also cofounding{" "}
@@ -68,36 +68,28 @@ const HomePage: React.FC = () => {
         </div>
 
         <div className="border-t border-orange-100 pt-8">
-          <h2 className="text-lg font-bold text-orange-700 mb-6">
+          <h1 className="text-2xl font-semibold text-orange-700 mb-4">
             Technologies
-          </h2>
+          </h1>
           <div className="space-y-4 text-md text-gray-700 leading-relaxed">
             <p>
               I build production applications with React, Next.js, TypeScript,
               and Python, and lean on Tailwind, Prisma, and Postgres for the
               ergonomics they give product teams.
             </p>
-            {/* <p>
-              I'm expanding into Swift for macOS (building things like{" "}
+            <p>
+              Past highlights include three 24-hour hackathon wins in 2024 for
+              AI health coaching, orchestral data storytelling, and a playful
+              fitness prototype. Please see my{" "}
               <a
-                href="https://github.com/salmaniye/EmojiPicker.app"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/projects"
                 className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
               >
-                EmojiPicker.app
-              </a>
-              ) and constantly tinkering with a self-hosted Linux lab for
-              backups, media, and automation experiments.
-            </p> */}
-            <p>
-              Recent highlights include three 24-hour hackathon wins in 2024 for
-              AI health coaching, orchestral data storytelling, and a playful
-              fitness prototype. Please see my <a
-              href="/projects"
-              className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"
-              >projects</a> page for more details.
+                projects
+              </a>{" "}
+              page for more details.
             </p>
+
             <p>
               <a
                 href="/resume/CV_Salman_Fatahillah.pdf"
@@ -122,9 +114,9 @@ const HomePage: React.FC = () => {
         </div>
 
         <div className="border-t border-orange-100 pt-8">
-          <h2 className="text-lg font-semibold text-orange-700 mb-6">
+          <h1 className="text-2xl font-semibold text-orange-700 mb-4">
             Connect
-          </h2>
+          </h1>
           <div className="space-y-4 text-md text-gray-700 leading-relaxed">
             <p>
               You can also find me on{" "}
