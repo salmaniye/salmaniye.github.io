@@ -9,14 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-  title: "CICON — Shoe repair booking platform",
+  title: "CICON - Shoe repair booking platform",
   description:
     "Customer-facing booking platform for professional shoe repair: photo-based intake, repair selection and pricing, secure checkout, order tracking, and cobbler-side tooling to move jobs through fulfillment. Built as production software for a company product (codebase private).",
-  image: "",
+  image: "/projects/cicon.png",
   link: "https://www.linkedin.com/company/cicon-app/",
   year: "2024-Present",
   summary:
-    "Full-stack work on a TypeScript/Next.js application with a persisted order model, payment flows, customer notifications, and media uploads—focused on reliability and clear operational workflows. **Private repository; high-level description only.**"
+    "Full-stack work on a TypeScript/Next.js application with a persisted order model, payment flows, customer notifications, and media uploads-focused on reliability and clear operational workflows. **Private repository; high-level description only.**"
   },
   {
     title: "EmojiPicker.app",
