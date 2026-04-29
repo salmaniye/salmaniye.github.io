@@ -3,17 +3,27 @@ export interface Project {
   description: string;
   image: string;
   link: string;
-  year: number;
+  year: string;
   summary?: string;
 }
 
 export const projects: Project[] = [
   {
+  title: "CICON — Shoe repair booking platform",
+  description:
+    "Customer-facing booking platform for professional shoe repair: photo-based intake, repair selection and pricing, secure checkout, order tracking, and cobbler-side tooling to move jobs through fulfillment. Built as production software for a company product (codebase private).",
+  image: "",
+  link: "https://www.linkedin.com/company/cicon-app/",
+  year: "2024-Present",
+  summary:
+    "Full-stack work on a TypeScript/Next.js application with a persisted order model, payment flows, customer notifications, and media uploads—focused on reliability and clear operational workflows. **Private repository; high-level description only.**"
+  },
+  {
     title: "EmojiPicker.app",
     description: "A macOS menu bar app built with Swift for quick emoji insertion. Features keyboard shortcuts and system integration for seamless workflow enhancement.",
     image: "",
     link: "https://github.com/salmaniye/EmojiPicker.app",
-    year: 2025,
+    year: "2025",
     summary: "Swift app that lets you quickly insert emojis anywhere by typing shortcuts like :heart or :fire. Learning native development while building something I actually use every day."
   },
   {
@@ -21,7 +31,7 @@ export const projects: Project[] = [
     description: "Tiger-themed gamified fitness app built with React for tracking running and walking activities. Winner of the PageTiger challenge at LincolnHack 2024.",
     image: "/projects/stripes-strides.png",
     link: "https://github.com/salmaniye/stripes-n-strides",
-    year: 2024,
+    year: "2024",
     summary: "My first hackathon win! React web application built with an amazing team. An inspiring weekend that led to me **pivoting my career to web development**."
   },
   {
@@ -29,7 +39,7 @@ export const projects: Project[] = [
     description: "Interactive map visualizing major historical migration events using Python, Streamlit, and Folium. Built in under 4 hours at Hack Pompey 2024.",
     image:  "/projects/maps.png",
     link: "https://github.com/salmaniye/interactive_migration_map",
-    year: 2024,
+    year: "2024",
     summary: "My first foray into hackathons! Though the project is basic, it was a great and fun start into the hackathon world. Python web app using Streamlit and Folium to display historical population movements."
   },
   {
@@ -37,7 +47,7 @@ export const projects: Project[] = [
     description: "A Streamlit web app that converts CSV files into interactive flashcards with customizable study sessions, search functionality, and progress tracking.",
     image: "/projects/flashcards.png",
     link: "https://github.com/salmaniye/flashcard-maker",
-    year: 2024,
+    year: "2024",
     summary: "Features customizable study sessions, search functionality, and the ability to split questions across multiple days. Deployed at [flashcard-maker.streamlit.app](https://flashcard-maker.streamlit.app) for easy access."
   },
   // {
@@ -52,7 +62,7 @@ export const projects: Project[] = [
     description: "Web application for sentiment analysis of pre-release gaming tweets using Python, machine learning, and data visualization. MSc final project.",
     image: "/projects/pokemon-msc-project.png",
     link: "https://github.com/salmaniye/msc-project",
-    year: 2022,
+    year: "2022",
     summary: "Built a web application that analyzes and displays sentiment from Twitter data about Pokémon games. My first real web development project that laid the foundation for everything that followed."
   }
 ]; 
