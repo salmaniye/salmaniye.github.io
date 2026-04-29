@@ -16,7 +16,7 @@ export const projects: Project[] = [
   link: "https://www.linkedin.com/company/cicon-app/",
   year: "2024-Present",
   summary:
-    "Full-stack work on a TypeScript/Next.js application with a persisted order model, payment flows, customer notifications, and media uploads-focused on reliability and clear operational workflows. **Private repository; high-level description only.**"
+    "Something I have been working on for the last 2 years. Full-stack work on a TypeScript/Next.js application with a persisted order model, payment flows, customer notifications, and media uploads-focused on reliability and clear operational workflows. **Private repository; high-level description only.**"
   },
   {
     title: "EmojiPicker.app",
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     image: "",
     link: "https://github.com/salmaniye/EmojiPicker.app",
     year: "2025",
-    summary: "Swift app that lets you quickly insert emojis anywhere by typing shortcuts like :heart or :fire. Learning native development while building something I actually use every day."
+    summary: "Learning native development while building something I actually use every day. Swift app that lets you quickly insert emojis anywhere by typing shortcuts like :heart or :fire. "
   },
   {
     title: "Stripes n Strides",
