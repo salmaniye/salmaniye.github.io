@@ -82,13 +82,13 @@ const Header: React.FC = () => {
             >
               Projects
             </Link>
-            <Link
+            {/* <Link
               to="/photography"
               className="block rounded-md px-3 py-2 text-gray-900 hover:bg-orange-200"
               onClick={closeMenu}
             >
               Photography
-            </Link>
+            </Link> */}
             <a
               href="/resume/CV_Salman_Fatahillah.pdf"
               target="_blank"

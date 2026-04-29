@@ -48,7 +48,7 @@ const HomePage: React.FC = () => {
                 infrastructure and CI/CD pipeline that ensures the platform is
                 always available and scalable.
               </p>
-              <p>
+              {/* <p>
                 I'm also cofounding{" "}
                 <a
                   href="https://loko.health"
@@ -62,7 +62,7 @@ const HomePage: React.FC = () => {
                 help community health workers monitor tuberculosis treatment in
                 Indonesia. We're keeping the stack accessible and low-cost so it
                 can run in resource constrained environments.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
