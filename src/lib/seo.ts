@@ -23,7 +23,7 @@ const routeMetadata: Record<string, PageMetadata> = {
     title: 'Projects | Salman Fatahillah',
     description:
       'Selected software projects by Salman Fatahillah, spanning production web applications, native tools, and data products.',
-    canonicalPath: '/projects',
+    canonicalPath: '/projects/',
   },
   '/blog': {
     title: 'Blog | Salman Fatahillah',

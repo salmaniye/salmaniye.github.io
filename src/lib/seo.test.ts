@@ -16,7 +16,7 @@ describe('getPageMetadata', () => {
       title: 'Projects | Salman Fatahillah',
       description:
         'Selected software projects by Salman Fatahillah, spanning production web applications, native tools, and data products.',
-      canonicalPath: '/projects',
+      canonicalPath: '/projects/',
     })
   })
 
