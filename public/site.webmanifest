@@ -1,0 +1,15 @@
+{
+  "name": "Salman Fatahillah | Full-stack developer",
+  "short_name": "Salman Fatahillah",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffedd5",
+  "theme_color": "#ffedd5",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
