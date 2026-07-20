@@ -21,6 +21,7 @@ function RouteMetadata() {
     document.title = metadata.title
 
     const description = document.querySelector<HTMLMetaElement>('meta[name="description"]')
+    const robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]')
     const openGraphTitle = document.querySelector<HTMLMetaElement>('meta[property="og:title"]')
     const openGraphDescription = document.querySelector<HTMLMetaElement>('meta[property="og:description"]')
     const openGraphUrl = document.querySelector<HTMLMetaElement>('meta[property="og:url"]')
@@ -29,6 +30,7 @@ function RouteMetadata() {
     const canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]')
 
     if (description) description.content = metadata.description
+    if (robots) robots.content = metadata.robots ?? 'index,follow'
     if (openGraphTitle) openGraphTitle.content = metadata.title
     if (openGraphDescription) openGraphDescription.content = metadata.description
     if (openGraphUrl) openGraphUrl.content = canonicalUrl

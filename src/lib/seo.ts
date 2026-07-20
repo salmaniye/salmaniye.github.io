@@ -2,6 +2,7 @@ export interface PageMetadata {
   title: string
   description: string
   canonicalPath: string
+  robots?: string
 }
 
 const homeMetadata: PageMetadata = {
@@ -9,6 +10,12 @@ const homeMetadata: PageMetadata = {
   description:
     'Portfolio of Salman Fatahillah, a full-stack developer building reliable web applications and operational software.',
   canonicalPath: '/',
+}
+
+const notFoundMetadata: Omit<PageMetadata, 'canonicalPath'> = {
+  title: 'Page not found | Salman Fatahillah',
+  description: 'The page you requested could not be found.',
+  robots: 'noindex,follow',
 }
 
 const routeMetadata: Record<string, PageMetadata> = {
@@ -32,9 +39,13 @@ const routeMetadata: Record<string, PageMetadata> = {
 }
 
 export function getPageMetadata(pathname: string): PageMetadata {
+  if (pathname === '/') {
+    return homeMetadata
+  }
+
   if (pathname.startsWith('/blog/')) {
     return { ...routeMetadata['/blog'], canonicalPath: pathname }
   }
 
-  return routeMetadata[pathname] ?? homeMetadata
+  return routeMetadata[pathname] ?? { ...notFoundMetadata, canonicalPath: pathname }
 }

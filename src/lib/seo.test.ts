@@ -29,7 +29,12 @@ describe('getPageMetadata', () => {
     })
   })
 
-  it('uses the home metadata for unrecognized routes', () => {
-    expect(getPageMetadata('/does-not-exist')).toEqual(getPageMetadata('/'))
+  it('returns noindex metadata for unrecognized routes', () => {
+    expect(getPageMetadata('/does-not-exist')).toEqual({
+      title: 'Page not found | Salman Fatahillah',
+      description: 'The page you requested could not be found.',
+      canonicalPath: '/does-not-exist',
+      robots: 'noindex,follow',
+    })
   })
 })
