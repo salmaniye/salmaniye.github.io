@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import Header from './components/Header'
 import Home from './pages/Home'
 import BlogPage from './pages/BlogPage'
@@ -42,9 +42,9 @@ function RouteMetadata() {
   return null
 }
 
-function App() {
+export function AppRoutes() {
   return (
-    <Router>
+    <>
       <RouteMetadata />
       <div className="min-h-screen bg-orange-100 flex flex-col">
         <Header />
@@ -59,7 +59,15 @@ function App() {
         </main>
         <Footer />
       </div>
-    </Router>
+    </>
+  )
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   )
 }
 
