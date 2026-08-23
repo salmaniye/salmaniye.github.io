@@ -36,8 +36,7 @@ const HomePage: React.FC = () => {
                 >
                   CICON
                 </a>
-                , where I'm helping build a two-sided marketplace for shoe and
-                handbag repairs. We're rebuilding it for the US market in
+                , where I'm helping build a two-sided marketplace for shoe repairs. We're rebuilding it for the US market in
                 Next.js and TypeScript, moving from the legacy
                 Prisma/PostgreSQL app to a Supabase-backed V3 platform.
               </p>
