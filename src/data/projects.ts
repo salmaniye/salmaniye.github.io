@@ -11,7 +11,7 @@ export const projects: Project[] = [
   {
   title: "CICON - Shoe repair booking platform",
   description:
-    "Two-sided marketplace for shoe and handbag repair, being rebuilt for the US market in Next.js/TypeScript with Supabase. It covers photo-based intake, AI-assisted assessment, repair selection and pricing, secure checkout, order tracking, and cobbler-side operations. Built as production software for a company product (codebase private).",
+    "Two-sided marketplace for shoe repair, being rebuilt for the US market in Next.js/TypeScript with Supabase. It covers photo-based intake, AI-assisted assessment, repair selection and pricing, secure checkout, order tracking, and cobbler-side operations. Built as production software for a company product (codebase private).",
   image: "/projects/cicon.png",
   link: "https://www.linkedin.com/company/cicon-app/",
   year: "2024-Present",
