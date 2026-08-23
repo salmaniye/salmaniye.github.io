@@ -36,17 +36,20 @@ const HomePage: React.FC = () => {
                 >
                   CICON
                 </a>
-                , where I'm building a UK platform that connects shoe products
-                to post-sale services.
+                , where I'm helping build a two-sided marketplace for shoe and
+                handbag repairs. We're rebuilding it for the US market in
+                Next.js and TypeScript, moving from the legacy
+                Prisma/PostgreSQL app to a Supabase-backed V3 platform.
               </p>
               <p>
-                On the backend I lead our Next.js/PostgreSQL stack that handles
-                orders, payments, notifications, and hooks into Stripe,
-                ShipStation, and Twilio. On the frontend I design multi-step
+                I work across the stack: AI-assisted assessment helps turn
+                customer photos into useful catalog matches and service
+                choices, while the backend handles orders, payments,
+                notifications, and shipping through Stripe, ShipStation,
+                Twilio, and Sentry. On the frontend I design multi-step
                 customer journeys that take people from photo uploads to
-                checkout on any device. I'm also responsible for the
-                infrastructure and CI/CD pipeline that ensures the platform is
-                always available and scalable.
+                checkout on any device, and I look after the infrastructure and
+                CI/CD that keeps the product dependable.
               </p>
               {/* <p>
                 I'm also cofounding{" "}
@@ -121,7 +124,7 @@ const HomePage: React.FC = () => {
             <p>
               You can also find me on{" "}
               <a
-                href="https://linkedin.com/in/salmanfatahillah"
+                href="https://linkedin.com/in/salman-fatahillah"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline underline-offset-4 text-orange-600 hover:text-orange-700 transition-colors"

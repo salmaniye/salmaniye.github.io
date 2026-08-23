@@ -25,26 +25,11 @@ const routeMetadata: Record<string, PageMetadata> = {
       'Selected software projects by Salman Fatahillah, spanning production web applications, native tools, and data products.',
     canonicalPath: '/projects/',
   },
-  '/blog': {
-    title: 'Blog | Salman Fatahillah',
-    description:
-      'Writing by Salman Fatahillah on software development, product work, and practical technology.',
-    canonicalPath: '/blog',
-  },
-  '/photography': {
-    title: 'Photography | Salman Fatahillah',
-    description: 'Photography by Salman Fatahillah.',
-    canonicalPath: '/photography',
-  },
 }
 
 export function getPageMetadata(pathname: string): PageMetadata {
   if (pathname === '/') {
     return homeMetadata
-  }
-
-  if (pathname.startsWith('/blog/')) {
-    return { ...routeMetadata['/blog'], canonicalPath: pathname }
   }
 
   return routeMetadata[pathname] ?? { ...notFoundMetadata, canonicalPath: pathname }

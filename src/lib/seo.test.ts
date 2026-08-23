@@ -20,12 +20,12 @@ describe('getPageMetadata', () => {
     })
   })
 
-  it('uses blog metadata and its own canonical path for a blog post', () => {
-    expect(getPageMetadata('/blog/my-first-post')).toEqual({
-      title: 'Blog | Salman Fatahillah',
-      description:
-        'Writing by Salman Fatahillah on software development, product work, and practical technology.',
-      canonicalPath: '/blog/my-first-post',
+  it.each(['/blog', '/blog/my-first-post', '/photography'])('returns noindex metadata for paused route %s', (pathname) => {
+    expect(getPageMetadata(pathname)).toEqual({
+      title: 'Page not found | Salman Fatahillah',
+      description: 'The page you requested could not be found.',
+      canonicalPath: pathname,
+      robots: 'noindex,follow',
     })
   })
 
