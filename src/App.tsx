@@ -2,11 +2,8 @@ import { useEffect } from 'react'
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import Header from './components/Header'
 import Home from './pages/Home'
-import BlogPage from './pages/BlogPage'
-import BlogPost from './pages/BlogPost'
 import Footer from './components/Footer'
 import Projects from './pages/Projects'
-import Photography from './pages/Photography'
 import { getPageMetadata } from './lib/seo'
 
 const siteUrl = 'https://salmanf.com'
@@ -52,9 +49,7 @@ export function AppRoutes() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/photography" element={<Photography />} />
-            <Route path="/blog" element={<BlogPage />} />
-            <Route path="/blog/:slug" element={<BlogPost />} />
+            {/* Photography and blog are paused until real photos/captions and posts are ready. */}
           </Routes>
         </main>
         <Footer />
